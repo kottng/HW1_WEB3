@@ -1,13 +1,23 @@
-# Sample Hardhat Project
+# Домашняя работа номер 1
+## Котков Дмитрий Павлович БПИ213
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
-
-Try running some of the following tasks:
+Проект содержит несколько папок
+- ### contracts
+    - содержит реализацию контракта ERC20.
+    - содержит реализацию контракта ERC721.
+    - содержит реализацию контракта ERC1155.
+- ### test
+    - содержит тесты для контракта ERC20.
+    - содержит тесты для контракта ERC721.
+    - содержит тесты для контракта ERC1155.
+- ### scripts
+    - deploy.js код для деплоя проектов в сеть Alchemy
+    - interact.js код для проверки работы проекта
+- ### coverage 
+    - папка, содержащая отчет о покрытии тестов
+- ### и др.папки
+- ### и др.папки
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
+
 ```
