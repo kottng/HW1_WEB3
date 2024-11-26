@@ -22,4 +22,5 @@
 
 ```
 
-![Deploy contacts](.deploy_photo.mp3)
+![Deploy contacts](deploying_photo.png)
+![Deploy contacts](usage_photo.png)
