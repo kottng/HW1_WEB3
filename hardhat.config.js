@@ -3,12 +3,13 @@ require("@nomicfoundation/hardhat-ethers");
 require("@nomicfoundation/hardhat-verify");
 require("dotenv").config();
 
+
 module.exports = {
     solidity: "0.8.27",
     networks: {
         sepolia: {
             url: `https://eth-sepolia.g.alchemy.com/v2/${process.env.ALCHEMY_API_KEY}`,
-            accounts: [`${process.env.PRIVATE_KEY}`],
+            accounts: [`${process.env.PRIVATE_KEY_1}`, `${process.env.PRIVATE_KEY_2}`],
         },
         localhost: {
             url: "http://127.0.0.1:8545",
@@ -26,4 +27,5 @@ module.exports = {
 };
 
 console.log("ALCHEMY_API_KEY:", process.env.ALCHEMY_API_KEY);
-console.log("PRIVATE_KEY:", process.env.PRIVATE_KEY);
+console.log("PRIVATE_KEY_1:", process.env.PRIVATE_KEY_1);
+console.log("PRIVATE_KEY_2:", process.env.PRIVATE_KEY_2);
