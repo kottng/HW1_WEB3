@@ -24,3 +24,5 @@
 
 ![Deploy contacts](deploying_photo.png)
 ![Deploy contacts](usage_photo.png)
+![Deploy contacts](coverage_photo.png)
+![Deploy contacts](test_photo.png)
