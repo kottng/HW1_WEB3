@@ -21,3 +21,5 @@
 ```shell
 
 ```
+
+![Deploy contacts](.deploy_photo.mp3)
